@@ -1,0 +1,17 @@
+{
+  "name": "Chat-IRC",
+  "version": "0.0.1",
+  "description": "socket.io app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "passport-local": "^1.0.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.7"
+  }
+}
